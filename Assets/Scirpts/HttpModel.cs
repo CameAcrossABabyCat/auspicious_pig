@@ -39,6 +39,7 @@ public class HttpModel : MonoBehaviour {
 	public void Get()
 	{
 		Data.BackData.Clear ();
+        Debug.Log("232");
 		//加密
 		//EncryptDecipherTool.GetList(Data.SendData,Islock);
 		message=null;
